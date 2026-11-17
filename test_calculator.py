@@ -1,4 +1,3 @@
-cat << 'EOF' > test_calculator.py
 import unittest
 from calculator import add, subtract
 
@@ -11,4 +10,3 @@ class TestCalculator(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-EOF
